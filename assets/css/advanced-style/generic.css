@@ -1,0 +1,13 @@
+.btn-primary, li#dataTable_previous a, li#dataTable_next a {
+    text-transform: uppercase!important;
+    font-weight: 500;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+
+h4.text-primary.tabletitle {
+    font-weight: 500!important;
+}

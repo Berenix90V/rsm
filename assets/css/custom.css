@@ -1,0 +1,40 @@
+/* per bottone add new */
+a.addnew-btn {
+    float: right;
+}
+h4.tabletitle h1.title-block .inlineblock {
+    margin: 0;
+    display: inline-block;
+}
+.form-group {
+    float: left;
+}
+
+.button-margin {
+    margin-right: 10px;
+}
+
+#tendina {
+    position: absolute;
+    top:70px;
+    left: 12px;
+    right: 12px;
+    background-color: #fff;
+    z-index: 99;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#tendina tr:hover td {
+    background-color: #4e73df;
+    color: #fff;
+}
+#tendina td {
+    transition: 0.1s;
+    background-color: #fff;
+}
+
+
+
+/*sezione powered by alberto*/
+@import url("advanced-style/main-style.css");

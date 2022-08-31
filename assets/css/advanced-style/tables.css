@@ -1,0 +1,72 @@
+#card-body #table-responsive table thead {
+    text-transform: uppercase;
+    font-size:13px;
+}
+
+table .td-active span,  table .td-not-active span {
+    display: none;
+}
+
+table .td-active,  table .td-not-active {
+    width: 50px;
+    position: relative;
+    padding:0;
+}
+
+table .td-active:before {
+
+    content:' ';
+    position: absolute;
+    height:40px;
+	margin-top:-20px;
+    width: 100%;
+    text-align: center;
+    z-index:99;
+	top:50%;
+	left:0;
+	right:0;
+	bottom:0;
+    font-size:30px;
+    line-height: 40px;
+    background-image: url('http://sviluppo.dacos.net/a/warehousersm/assets/img/power-on.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+table .td-not-active:before {
+    content:' ';
+    
+    position: absolute;
+    height:40px;
+    width: 100%;
+    text-align: center;
+    z-index:99;
+    transform: translate(0, 50%);
+    font-size:30px;
+    line-height: 40px;
+    background-image: url('http://sviluppo.dacos.net/a/warehousersm/assets/img/power-off.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+td .btn {
+	margin:0 2px;
+	background-color:transparent;
+}
+
+td .btn-success {
+	border:2px solid #17A673;
+	color:#17A673;
+}
+
+td .btn-danger {
+    border:2px solid #e74a3b;
+    color:#e74a3b;
+}
+	
+td .btn-warning {
+	border:2px solid #F4B619;
+	color: #F4B619;
+}

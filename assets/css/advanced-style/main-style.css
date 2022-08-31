@@ -1,0 +1,10 @@
+/*stile delle tabelle e loro componeti*/
+@import "tables.css";
+/*stile dei riquadri*/
+@import "boxes.css";
+/*stile dei titoli*/
+@import "titles.css";
+/*stile barre di navigazione*/
+@import "topbar.css";
+/*stile generico*/
+@import "generic.css";
